@@ -33,7 +33,7 @@ jobs:
       - name: NPM Install
         run: npm install
       # Runs a npm install command using the runners shell
-      - name: NPM run build
+      - name: Create deployable build
         run: npm run build
       # Runs a npm install command using the runners shell
       - name: NPM test
