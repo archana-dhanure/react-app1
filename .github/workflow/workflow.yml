@@ -1,9 +1,10 @@
-name: React DeployWorkflow
+name: react-app1
 
 on:
   push:
     branches:
       - "master"
+
 jobs:
   build:
     runs-on: ubuntu-latest
