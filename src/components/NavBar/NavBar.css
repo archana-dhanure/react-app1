@@ -1,0 +1,25 @@
+.navbar {
+  background-color: #546787;
+  width: auto;
+  height: auto;
+  display: flex;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li,
+.sidebar ul li {
+  margin: 0 10px;
+}
+
+.link-group li a {
+  text-decoration: none;
+}
+
+.link-group li a:hover {
+  /*color: #fff6;*/
+  color: #ffa500;
+}

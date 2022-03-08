@@ -1,0 +1,9 @@
+.backdrop {
+  background-color: #0c0c0dad;
+  height: 100%;
+  width: 80%;
+  position: absolute;
+  margin-left: 20vw;
+
+  z-index: 100;
+}

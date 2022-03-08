@@ -1,0 +1,13 @@
+.sidebar {
+  background-color: #546787;
+  height: 100%;
+  width: 20%;
+  color: #ffff;
+  position: absolute;
+  z-index: 200;
+  box-shadow: hsl(0, 7%, 17%);
+}
+
+.sidebar ul {
+  list-style: none;
+}
