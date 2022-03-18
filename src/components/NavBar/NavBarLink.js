@@ -49,6 +49,9 @@ function NavBarLinks() {
           <li>
             <Link to="/HooksCakeContainer"> HooksCakeContainer</Link>
           </li>
+          <li>
+            <Link to="/Login"> Login </Link>
+          </li>
         </ul>
       </Menu>
     </div>
