@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 function FormDemo() {
   let [userData, setUserData] = useState({ name: "", age: "", city: "" });
@@ -6,8 +6,6 @@ function FormDemo() {
     let updateObj = { [keyname]: e.target.value };
     setUserData({ ...userData, ...updateObj });
   }
-
-  useEffect(() => {}, [userData.city]);
 
   return (
     <React.Fragment>
